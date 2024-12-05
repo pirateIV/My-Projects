@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  font-family: "InterVariable", sans-serif;
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
