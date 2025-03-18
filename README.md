@@ -13,7 +13,22 @@
 - API Integration
 - Image Optimization
 
-## 2. Weather App
+## 2. Book Reviews App
+
+📌 A Book Reviews App buit using Next.js, offers users reviews, rating and user reading lists based on books.
+
+🔗 Live Demo: https://novellier.vercel.app/
+🔗 Github Link: https://github.com/pirateIV/book-review/
+
+### What I learnt/used:
+
+- Next.js
+- GraphQL
+- MongoDB/mongoose
+- TypeScript
+- APIs
+
+## 3. Weather App
 
 📌 A Weather providing up-to-date weather forecasts using the [Weatherapi](https://www.weatherapi.com/) API.
 
@@ -25,7 +40,7 @@
 - React( Hooks, Custom Hooks, Fetching Data)
 - API Integration
 
-## 3. Chat app
+## 4. Chat app
 
 📌 A Weather app powered by React, MonogoDB, NodeJS and Socket.io
 
@@ -38,7 +53,7 @@
 - MongoDB,NodeJS, Socket.io
 - API Integration
 
-# 4. Social Media App
+# 5. Social Media App
 
 📌 Fullstack social media app on MERN: Create profiles, share posts, and explore a social feed. Real-time updates via Socket.io for instant notifications and live feeds.
 
@@ -51,7 +66,7 @@
 - Redux(Redux toolkit)
 - MongoDB,NodeJS, Socket.io
 
-# 5. Clock Widget
+# 6. Clock Widget
 
 📌 A advanced clock (digital/analog) widget that displays the current time and date..
 
