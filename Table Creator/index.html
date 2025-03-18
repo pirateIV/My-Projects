@@ -1,18 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="src/css/tailwind.css" />
     <title>Vite + TS</title>
   </head>
-  <body>
-    <div id="app">
-      <h1>Table Creator</h1>
-    </div>
+
+  <body class="">
+    <main class="h-screen">
+      <div class="grid grid-cols-12 h-full">
+        <div class="col-span-8"></div>
+
+        <aside class="col-span-4 bg-gray-800 pt-6">
+          <div class="p-3 ps-5 border-b border-gray-600">
+            <div class="flex items-center gap-3">
+              <div
+                class="flex items-center justify-center size-9 bg-gray-700  text-indigo-500 rounded-full"
+              >
+                <span
+                  class="table-icon size-8 fill-current"
+                ></span>
+              </div>
+              <p class="text-gray-300 text-sm font-medium">Table Creator</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

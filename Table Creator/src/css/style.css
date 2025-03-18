@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LucideIcons';
+  src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format('truetype');
+}
+
+* {
+  font-family: "InterVariable", sans-serif;
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.table-icon {
+  --icon: url("data:image/svg+xml; base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRhYmxlLTIiPjxwYXRoIGQ9Ik05IDNINWEyIDIgMCAwIDAtMiAydjRtNi02aDEwYTIgMiAwIDAgMSAyIDJ2NE05IDN2MThtMCAwaDEwYTIgMiAwIDAgMCAyLTJWOU05IDIxSDVhMiAyIDAgMCAxLTItMlY5bTAgMGgxOCIvPjwvc3ZnPg==");
+  /* background-color: currentColor; */
+  color: inherit;
+  height: 1.2em;
+  -webkit-mask: var(--xx-icon) no-repeat;
+  mask: var(--xx-icon) no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  width: 1.2em
+}
